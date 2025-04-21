@@ -18,7 +18,7 @@ function getEndpoints(deviceAddress, endpoints) {
     var distance = endpoints.addEndpoint("3", "Distance", endpointType.genericSensor);
     distance.variableTypeId = 1276;
     var fill = endpoints.addEndpoint("4", "Fill level", endpointType.genericSensor);
-    fll.variableTypeId = 1277;
+    fill.variableTypeId = 1277;
 }
 
 
